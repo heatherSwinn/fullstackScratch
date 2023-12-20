@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery List App</title>
+    <script defer src="index.js"></script>
+</head>
+<body>
+    <h1>Grocery List</h1>
+
+    <form id="addItemForm">
+        <label for="itemName">Item Name:</label>
+        <input type="text" id="itemName" name="itemName" required>
+        <label for="itemQuantity">Quantity:</label>
+        <input type="number" id="itemQuantity" name="itemQuantity">
+        <label for="itemNotes">Notes:</label>
+        <textarea id="itemNotes" name="itemNotes"></textarea>
+        <button type="submit">Add Item</button>
+    </form>
+    <ul id="itemList"></ul>
+</body>
+</html>
